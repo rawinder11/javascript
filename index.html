@@ -1,0 +1,52 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>My first page</title>
+        <link rel="stylesheet" href="./style.css"/>
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/design-system/2.16.1/styles/salesforce-lightning-design-system.min.css"/>
+    </head>
+    <body><!-- type =module tell that we will import the methods from different file-->
+        <script type="module" src="./script.js"></script>
+        <div class="abc">hello</div>
+        <div class="xyz"> i am second div</div>
+        <!-- <button onclick="myFunction()">Click me</button> -->
+        <button>Click me</button>
+        <div class="demo">hello lwc devloper</div>
+   
+        <button class="remove" onclick="handlerremove();">Remove handler</button>
+
+        <!--buble phase bottom to top-->
+        <form onclick="alert('i am form')">
+            i am a form
+            <div onclick="alert('i am div')">i am div
+                <p onclick="alert('i am p')"> ia m p</p>
+            </div>
+        </form>
+
+        <!--custom event-->
+        <button onclick="customevent()">custom event</button>
+        <!-- <img src="https://picsum.photos/200"/>
+        <a href="https://google.com">go to google</a>
+        <div data-name="raw"></div>
+        <div style="color:aqua;">i am div1<span>i am span</span></div>
+        <div  class="slds-text-heading_medium">i am div 2</div>
+   
+
+
+
+        <div>Welcome to my first page..............</div>
+        <div id="username">div2</div>
+        <p class="class1">This is paragraph</p>
+        <ul>
+            <li>first</li>
+            <li>second</li>
+        </ul>
+        <h1>heading1</h1>
+        <h2>heading 2   </h2>
+        <h3>heading3</h3>
+        <h4>heading4</h4>
+        <h5>heading5</h5>
+        <h6>heading6</h6> -->
+       
+    </body>
+</html>
